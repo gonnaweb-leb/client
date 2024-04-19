@@ -1,0 +1,14 @@
+#ordersent table,
+#ordersent table th,
+#ordersent table td {
+    border: 1px solid var(--color-muted);
+}
+
+#ordersent table th,
+#ordersent table td {
+    padding: 5px 5px
+}
+
+#ordersent a img {
+    width: 300px;
+}

@@ -1,0 +1,26 @@
+#aboutus .service_card>div {
+    height: 300px;
+}
+
+.services-icon-wap:hover .card_text_overlay {
+    transition: all 1s ease;
+    display: inline-flex;
+    color: var(--color-init) !important;
+}
+
+.services-icon-wap:hover .card_text {
+    transition: all 1s ease;
+    display: none;
+}
+
+.services-icon-wap .card_text_overlay {
+    transition: all 1s ease;
+    display: none;
+    text-transform: none;
+    font-size: 16px;
+}
+
+.services-icon-wap .card_text {
+    transition: all 1s ease;
+    display: block;
+}

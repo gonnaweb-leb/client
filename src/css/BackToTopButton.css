@@ -1,0 +1,18 @@
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--color-init);
+    color: var(--color-black);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top-button:hover {
+    opacity: 1;
+}

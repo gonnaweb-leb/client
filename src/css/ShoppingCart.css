@@ -1,0 +1,53 @@
+#ShoppingCart a.nav-link:hover {
+    text-decoration: underline;
+}
+
+#ShoppingCart .address {
+    border: 1px solid var(--color-black);
+}
+
+.effect {
+    transition: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#ShoppingCart .form-group label,
+#ShoppingCart address,
+.css-ahj2mt-MuiTypography-root {
+    font-size: 14px !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root {
+    cursor: pointer;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    margin-bottom: 7px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root:hover {
+    background-color: var(--color-light);
+    border: 1px solid var(--color-black);
+}
+
+.css-j204z7-MuiFormControlLabel-root:focus {
+    background-color: var(--color-light);
+}
+
+/* .css-j204z7-MuiFormControlLabel-root:focus-visible {
+    background-color: var(--color-light);
+} */
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: var(--color-init) !important;
+}

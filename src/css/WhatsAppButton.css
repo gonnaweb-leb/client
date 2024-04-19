@@ -1,0 +1,30 @@
+/* styles.css */
+.whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.whatsapp-button2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.whatsapp-button2:hover {
+    opacity: 1;
+}
